@@ -1,0 +1,9 @@
+a=int(input())
+b=0
+c=0
+for i range(1,a+1):
+        d=sum(list(map(int,str(i))
+        if b<=d:
+              b=d
+              c=i
+print(c)
