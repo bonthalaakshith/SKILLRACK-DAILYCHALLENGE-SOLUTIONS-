@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int a,b;
+    char ch;
+    scanf("%d %c %d\n",&a,&ch,&b);
+    int shift;
+    scanf("%d",&shift);
+    
+    if(shift==1)
+    {
+        if(ch=='+')
+        {
+            printf("%d",a-b);
+        }
+        else if(ch=='-')
+        {
+            printf("%d",a+b);
+        }
+        else if(ch=='/')
+        {
+            printf("%d",a*b);
+        }
+        else
+        {
+            printf("%d",a/b);
+        }
+    }
+    else if(shift==0)
+    {
+        if(ch=='+')
+        {
+            printf("%d",a+b);
+        }
+        else if(ch=='-')
+        {
+            printf("%d",a-b);
+        }
+        else if(ch=='/')
+        {
+            printf("%d",a/b);
+        }
+        else if(ch=='*')
+        {
+            printf("%d",a*b);
+        }
+    }
+}
