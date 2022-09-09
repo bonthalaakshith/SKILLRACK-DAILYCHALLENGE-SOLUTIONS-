@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int n;
+char ch;
+scanf("%c %d",&ch,&n);
+if(ch=='O'){
+    if(n==1){
+        printf("Ola Auto");
+    }
+    else if(n==2){
+        printf("Ola Mini");
+    }
+    else if(n==3){
+        printf("Ola Micro");
+    }
+    else if(n==4){
+        printf("Ola Prime");
+    }
+    else{
+        printf("Invalid");
+    }
+}
+else if(ch=='U'){
+
+    if(n==1){
+        printf("Uber Auto");
+    }
+    else if(n==2){
+        printf("Uber Cab");
+    }
+    else{
+        printf("Invalid");
+    }
+}
+else{
+    printf("Invalid");
+}
+}
