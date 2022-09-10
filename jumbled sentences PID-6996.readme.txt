@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+     int N,value,arrCount=0;
+     scanf("%d %d",&N,&value);
+     int arr[N];
+     for(int index=0;index<N;index++)
+        scanf("%d",&arr[index]);
+     for(int index=0;index<N;index++)
+     {
+         if(arr[index]!=value)
+         {
+             arrCount++;
+         }
+     }
+     printf("%d",arrCount);
+     return 0;
+}
