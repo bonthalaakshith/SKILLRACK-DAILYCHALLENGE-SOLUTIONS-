@@ -1,0 +1,13 @@
+x,y,z=map(int,input().split())
+if x<y:
+    for i in range(x,y+1):
+        if i%2!=0:print(i,end=' ')
+else:
+    for i in range(y,x+1):
+        if i%2==0:print(i,end=' ')
+if y<z:
+    for i in range(y,z+1):
+        if i%2!=0:print(i,end=' ')
+else:
+    for i in range(z,y+1):
+        if i%2==0:print(i,end=' ')
