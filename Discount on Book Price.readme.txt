@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int x,y;
+scanf("%d %d",&x,&y);
+int to=x*y;
+if(x>=2 && x<=4){
+    int t=(to*10)/100;
+    int s=to-t;
+    printf("%d",s);
+}
+else if(x==5){
+    int t=(to*20)/100;
+    int s=to-t;
+    printf("%d",s);
+}
+else if(x>5){
+    int t=(to*50)/100;
+    int s=to-t;
+    printf("%d",s);
+}
+else{
+    printf("%d",y);
+}
