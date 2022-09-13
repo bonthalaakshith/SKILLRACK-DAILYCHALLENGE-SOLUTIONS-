@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    char s[101];
+    scanf("%s",&s);
+    for(int i=0; s[i]; i++){
+        if(s[i]=='a') printf("b");
+        else if(s[i]=='e') printf("f");
+        else if(s[i]=='i') printf("j");
+        else if(s[i]=='o') printf("p");
+        else if(s[i]=='u') printf("v");
+        else if(s[i]>='b' && s[i]<='d') printf("e");
+        else if(s[i]>='f' && s[i]<='h') printf("i");
+        else if(s[i]>='j' && s[i]<='n') printf("o");
+        else if(s[i]>='p' && s[i]<='t') printf("u");
+        else if(s[i]>='v' && s[i]<='z') printf("a");
+        
+    }
+}
