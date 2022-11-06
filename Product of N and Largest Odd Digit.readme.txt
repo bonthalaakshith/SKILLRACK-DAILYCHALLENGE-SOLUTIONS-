@@ -1,0 +1,6 @@
+N=input().strip()
+oddDigit=[int(digit) for digit in N if int(digit)%2==1]
+if oddDigit:
+    print(int(N)*max(oddDigit))
+else:
+    print(-1)
