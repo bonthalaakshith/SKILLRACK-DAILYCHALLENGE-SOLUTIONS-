@@ -1,0 +1,8 @@
+sum=0
+n=int(input())
+l=list(map(int,input().split()))
+nl=list(set(l))
+for i in nl:
+    if l.count(i)>1:sum+=i
+if sum>0:print(sum)
+else:print("-1")
