@@ -1,0 +1,8 @@
+s,n = input().strip().split()
+n = int(n)
+
+for i in range(0,len(s),n):
+    c=s[i:n+i]
+    while len(c)<n:
+        c+='*'
+    print(c)
