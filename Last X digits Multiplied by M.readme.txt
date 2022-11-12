@@ -1,0 +1,3 @@
+a=input().strip()
+x,m=map(int,input().split())
+print(int(a[-x:])*m)
