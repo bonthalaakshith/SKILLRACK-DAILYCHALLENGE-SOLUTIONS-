@@ -1,0 +1,10 @@
+import math
+x,y=map(int,input().split())
+k=str(x)+str(y)
+s=str(y)+str(x)
+s1=int(k)
+s2=int(s)
+if s1%math.sqrt(s1)==0 or s2%math.sqrt(s2)==0:
+    print("Yes")
+else:
+    print("No")
