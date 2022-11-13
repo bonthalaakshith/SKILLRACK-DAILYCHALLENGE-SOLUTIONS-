@@ -1,0 +1,10 @@
+n=int(input())
+for i in range(n):
+    (A,B)=map(int,input().split(' '))
+    if(B==A):
+        print("NO")
+    elif(A>B):
+        print("YES")
+    else:
+        print("NO")
+    
