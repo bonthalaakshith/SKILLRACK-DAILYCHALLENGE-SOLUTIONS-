@@ -1,0 +1,3 @@
+lis=list(map(int,input().split()));l=lis
+print(sum(l),end=' ')
+print('%.3f'%(sum(l)/len(l)))
