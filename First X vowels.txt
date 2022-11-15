@@ -1,0 +1,10 @@
+s,x=input().split()
+x=int(x)
+res=""
+for i in s:
+    if i in "aeiouAEIOU":
+       res+=i
+if(len(res)==0 or len(res)<x):
+      print("-1")
+else:
+      print(res[:x])
