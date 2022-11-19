@@ -1,0 +1,9 @@
+m,n,x=map(int,input().split())
+i=0
+for y in range(m,n+1):
+    if(y%x==0):
+        i=i+y
+if(i==0):
+    print(-1)
+else:
+    print(i)
