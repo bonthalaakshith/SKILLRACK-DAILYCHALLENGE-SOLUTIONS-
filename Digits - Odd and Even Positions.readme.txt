@@ -1,0 +1,7 @@
+N=input().strip()
+for index in range(0,len(N),2):
+    print(N[index],end=" ")
+print()
+for index in range(1,len(N),2):
+    print(N[index],end=" ")
+
