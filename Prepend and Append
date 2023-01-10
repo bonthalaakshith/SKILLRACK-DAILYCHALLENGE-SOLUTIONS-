@@ -1,0 +1,7 @@
+s=input().strip()
+ch=input().strip()
+if s[0]!=ch:
+    s=ch+s
+if s[-1]!=ch:
+    s+=ch
+print(s)
