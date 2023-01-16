@@ -1,0 +1,6 @@
+n=int(input())
+r=list(map(int,input().split()))
+s=r.copy()
+s.sort(reverse=True)
+if r==s:print("yes")
+else:print("no")
