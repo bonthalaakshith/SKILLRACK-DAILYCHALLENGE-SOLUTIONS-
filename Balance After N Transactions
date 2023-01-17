@@ -1,0 +1,9 @@
+n = int(input())
+bal = 1000
+for i in range(n):
+    s = input().split()
+    if s[0] == '+':
+        bal += int(s[1])
+    else:
+        bal -= int(s[1])
+print(bal)
