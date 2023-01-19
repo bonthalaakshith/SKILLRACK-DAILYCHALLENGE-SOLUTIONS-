@@ -1,0 +1,12 @@
+x,y = map(str,input().split())
+val="2357"
+a,b="",""
+for i in x:
+    if i not in val:
+        a+=i 
+for i in y:
+    if i not in val:
+        b+=i 
+if a=="": a=0
+if b=="": b=0 
+print(int(a)+int(b))
