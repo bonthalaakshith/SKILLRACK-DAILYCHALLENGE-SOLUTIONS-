@@ -1,0 +1,8 @@
+n,x=map(int,input().split());f=0
+for i in range(n):
+    s=input().strip()
+    if len(s)!=x:
+        print(s)
+        f=1
+if f==0:
+    print(-1)
