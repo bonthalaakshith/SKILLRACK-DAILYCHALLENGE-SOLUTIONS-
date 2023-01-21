@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(str(a),b)
+e=""
+while d>0:
+    e+=str(d%c)
+    d=d//c
+print(e[::-1])
