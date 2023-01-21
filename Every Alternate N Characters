@@ -1,0 +1,4 @@
+s ,n  =input().split()
+a = int(n)
+for i in range(0,len(s),a+a):
+    print(s[i:i+a],end="")
