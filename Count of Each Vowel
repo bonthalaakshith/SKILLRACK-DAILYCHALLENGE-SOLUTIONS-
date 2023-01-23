@@ -1,0 +1,7 @@
+s=input().strip()
+d=s.count('a')
+print("a",d)
+print("e",s.count('e'))
+print("i",s.count('i'))
+print("o",s.count('o'))
+print("u",s.count('u'))
