@@ -1,0 +1,7 @@
+a=int(input())
+b=list(map(int,input().split()))
+for i in range(0,a,2):
+    if(b[i]>b[i+1]):
+        print(b[i+1],b[i],end=" ")
+    else:
+        print(b[i],b[i+1],end=" ")
