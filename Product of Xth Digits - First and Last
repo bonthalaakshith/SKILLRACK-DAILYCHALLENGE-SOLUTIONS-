@@ -1,0 +1,7 @@
+s,n=map(str,input().split())
+n=int(n)
+a=s[n-1]
+b=s[-n]
+a=int(a)
+b=int(b)
+print(a*b)
