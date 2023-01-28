@@ -1,0 +1,5 @@
+num = int(input())
+num += 1
+while num % 10 != 2:
+    num += 1
+print(num)
