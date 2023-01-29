@@ -1,0 +1,9 @@
+z=int(input())
+w=list(map(int,input().split()))
+s=0
+for y in w:
+    if y%100==10:
+        print(y,end=' ')
+        s+=1
+if s==0:
+    print("-1")
