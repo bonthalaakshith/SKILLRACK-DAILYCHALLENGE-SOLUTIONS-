@@ -1,0 +1,8 @@
+a,b=input().split()
+a=ord(a)
+b=ord(b)
+c=0
+for i in range(a,b +1 ):
+    if chr(i) not in "aeiouAEIOU":
+        c+=1
+print(c)
