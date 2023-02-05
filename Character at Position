@@ -1,0 +1,5 @@
+a=int(input())
+lis=list(map(int,input().split()))
+for i in lis:
+    b=i+96
+    print(chr(b),end="")
