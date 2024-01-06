@@ -1,0 +1,19 @@
+
+
+
+
+k=int(input());p=k;l=[]
+for i in range(k):
+    o=[]
+    for j in range(k):
+        o.append(p)
+        p+=k
+    if i%2!=0:
+        o=o[::-1]
+    l.append(o)
+    
+    
+for i in range(k):
+    for j in range(k):
+        print(l[j][i],end=" ")
+    print()
