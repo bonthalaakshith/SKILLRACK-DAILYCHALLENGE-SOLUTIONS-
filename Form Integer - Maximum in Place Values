@@ -1,0 +1,15 @@
+n=int(input())
+a=list(map(int,input().split()))
+b=1
+l,q=[],[]
+p=len(str(max(a)))
+for i in range(p):
+    l=[]
+    for j in range(n):
+        c=(a[j]//b)%10
+        l.append(c);
+    q.append(max(l))
+    b=b*10;
+q=q[::-1]
+for i in q:
+    print(i,end='')
